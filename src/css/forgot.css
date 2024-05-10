@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "Nunito",sans-serif;
+    border: none;
+    text-transform: capitalize;
+}
+main{
+    background-image:url("../img/burger_bg.png");
+}
+header{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    z-index: 100;
+}
+header .logo{
+    font-size: 45px;
+    color: rgb(56, 128, 4);
+    transition: 0.5s;
+}
+header .logo:hover{
+    transform: scale(1.2);
+}
+header .logo span{
+    color: rgb(184, 228, 152);
+}
+footer{
+    background: #F5FBFF;
+    background-image:url("../img/footer_bg.png");
+    display: flex;
+    flex-direction: column;
+}
+footer #a{
+    display: flex;
+    flex-direction: column;
+}
+#a .information ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 200px;
+    margin-top: 40px;
+}
+.information ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.information ul li h4{
+    font-family: "Montserrat", sans-serif;
+    color:#1A0D01;
+    font-weight: 700;
+    font-size: 24px;
+}
+.information ul li p{
+    font-size: 16px;
+    margin-top: 10px;
+    color:#6E6E6E;
+    font-weight: 400;
+}
+.information ul li span{
+    /* color:#F0542C; */
+    color:rgb(27, 175, 27);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#a .iconsOfFooter{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin:5px auto;
+}
+.iconsOfFooter i{
+    font-size: 30px;
+    color:rgb(27, 175, 27);
+    transition: 0.5s;
+}
+.iconsOfFooter i:hover{
+    color:rgb(27, 175, 27);
+    transform: scale(1.2);
+}
+#b p{
+    margin: 40px auto;
+    text-align: center;
+    color:#919191;
+}
+#b a{
+    color:rgb(27, 175, 27);
+    font-family: "Raleway", sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+main #backgroundOfForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:#fff;
+    gap: 20px;
+    width: 400px;
+    height: 350px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    border:0.5px solid grey;
+    border-radius:10px;
+    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3); */
+    /* width: 400px; */
+    /* width: 350px; */
+}
+#groovy{
+    font-size: 30px;
+    color:green;    
+}
+#groovy span{
+    color:rgb(27, 175, 27);
+    font-size:35px;
+}
+.forgotForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.forgotForm input{
+    height: 35px;
+    width: 350px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+#backgroundOfForm #notFound{
+    color:red;
+    padding-top: 20px;
+    font-size: 20px;
+    display: none;
+}
+body #changeForm{
+    display: flex;
+    position: fixed;
+    top: 80px;
+    left: 500px;
+    flex-direction: column;
+    align-items:center;
+    background-color:#fff;
+    /* margin: 50px auto; */
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    z-index: 100;
+    display: none;
+}
+#changeForm h4{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+#changeForm h4 span{
+    font-size: 45px;
+    color:rgb(184, 228, 152);
+}
+#changeForm #formOfChange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+    gap: 20px;
+}
+#formOfChange input{
+    font-size: 18px;
+    padding-left: 15px;
+    width: 300px;
+    height: 35px;
+    border:1px solid grey;
+}
+#formOfChange #submit{
+    width: 300px;
+    color: green;
+}
+#formOfChange #submit:hover{
+    background-color:green;
+    color: #fff;
+    border: 0px;
+}
+#changeForm img{
+    margin-top: 25px;
+    padding-left: 350px;
+    width: 18px;
+}
+body #gray{
+    background-color:rgba(1,1,1,0.50);
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

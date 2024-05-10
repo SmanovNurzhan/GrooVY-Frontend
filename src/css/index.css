@@ -1,0 +1,1212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "Nunito",sans-serif;
+    border: none;
+    text-transform: capitalize;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-right: 10%;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    z-index: 100;
+}
+
+header .logo{
+    font-size: 3rem;
+    color: rgb(56, 128, 4);
+    transition: 0.5s;
+}
+header .logo:hover{
+    transform: scale(1.2);
+}
+header .logo span{
+    color: rgb(184, 228, 152);
+}
+header input{
+    display: none;
+}
+header label{
+    font-size: 3rem;
+    color:green;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 70%;
+    padding-right: 5%;
+}
+.navbar ul{
+    display: flex;
+    gap: 10%;
+}
+.navbar .sign{
+    font-size: 20px;
+    color:rgb(31, 77, 21);
+}
+.navbar .sign:hover{
+    color: rgb(184, 228, 152);
+}
+.navbar ul li a{
+    color:rgb(31, 77, 21);
+    font-size: 18px;
+}
+.navbar ul li #home{
+    text-decoration: underline;
+    color:rgb(184, 228, 152);
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color:rgb(184, 228, 152);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-image:url('../img/burger_bg.png');
+}
+main .firstPage{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    margin:0 100px;
+    background-color:rgb(221, 226, 218);
+    border-radius:30px;
+}
+.firstPage .inscription{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inscription h2{
+    color:rgb(56, 128, 4);
+    font-size: 100px;
+}
+.inscription h2 span{
+    color:rgb(184, 228, 152);   
+}
+.inscription p{
+    font-size: 20px;
+    color:green;
+    font-weight: 400;
+}
+.firstPage img{
+    width: 70%;
+    border:4px solid rgb(63, 169, 63);
+    border-radius: 1000px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px auto;
+}
+.menu .best{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(56, 128, 4);
+}
+.menu .menuSet{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.menuSet ul li img{
+    width: 200px;
+    border:2px solid green;
+    border-radius:25px;
+}
+.menuSet ul {
+    display: flex;
+    flex-direction: column;
+    margin:30px auto;
+    gap: 60px;
+}
+.menuSet ul li{
+    display: flex;
+    gap: 20px;
+    /* align-items:center; */
+}
+
+.menuSet div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menuSet div h3{
+    font-size: 30px;
+    color:green;
+}
+.menuSet div p{
+    font-size: 20px;
+    color:#6E6E6E;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:20px auto;
+    border:1px solid rgb(80, 172, 15);
+    width: 100%;
+    height: 65px;
+    border-radius: 30px;
+}
+.more span{
+    color:rgb(80, 172, 15);
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+.more:hover{
+    background-color: rgb(80, 172, 15);
+}
+.more:hover span{
+    color:#fff;
+}
+
+
+.twoFoods{
+    display: flex;
+}
+.f1 img{
+    height: 80%;
+    width: 100%;
+}
+.f2 img{
+    height: 80%;
+    width: 100%;
+}
+.f1 .textf1{
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 200px;
+}
+.f2 .textf2{
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 190px;
+}
+.textf1 span{
+    font-size: 40px;
+    font-weight: 900;
+    /* color: rgb(254, 3, 3); */
+    color:black;
+}
+.textf1 h4{
+    font-size: 30px;
+    color:#dbd9d9;
+}
+.textf1 p{
+    color:#E8E8E8;
+    font-size: 17px;
+    font-weight: 800;
+}
+.textf1 a{
+    color:#fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+.textf1 div:hover a{
+    color:green;
+}
+.textf1 div:hover{
+    background-color:#FFF;
+}
+.textf1 div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:20px auto;
+    border:1px solid rgb(80, 172, 15);
+    background-color:green;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-left: 0px;
+}
+
+.textf2 span{
+    font-size: 40px;
+    font-weight: 900;
+    /* color: rgb(254, 3, 3); */
+    color:black;
+}
+.textf2 h4{
+    font-size: 30px;
+    color:black;
+}
+.textf2 p{
+    color:black;
+    font-size: 17px;
+    font-weight: 800;
+}
+.textf2 a{
+    color:#fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+.textf2 div:hover a{
+    color:green;
+}
+.textf2 div:hover{
+    background-color:#FFF;
+}
+.textf2 div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:20px auto;
+    border:1px solid rgb(80, 172, 15);
+    background-color:green;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-left: 0px;
+}
+
+/* ABOUT US */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 100px auto;
+}
+.chefs{
+    /* display: inline-block; */
+    display: inline;
+}
+.chefs #firstChef{
+    width: 450px;
+    height: 600px;
+}
+.chefs #secondChef{
+    position: relative;
+    display: inline-block;
+    margin-right: -150px;
+    right: 250px;
+    top: 70px;
+    width: 300px;
+}
+.about .chefDisc{
+    display: inline-block;
+}
+.about h4{
+    font-size: 30px;
+    color:#F2C64D;
+}
+.chefDisc h1{
+    font-size: 45px;
+    color:#1A0D01;
+}
+.chefDisc p{
+    color:#4D4D4D;
+}
+.chefDisc img{
+    margin-top: 20px;
+}
+.afterAbout{
+    /* background-color:rgb(255, 255, 255); */
+    /* margin: 10px 60px; */
+    padding-bottom: 40px;
+    /* border:2px solid rgb(222, 233, 223); */
+    /* border-radius:25px; */
+}
+
+/* ABOUT US */
+
+
+/* contact */
+.contact{
+    display: flex;
+    align-items:center;
+    gap: 120px;
+    margin:50px auto;
+
+}
+#loc{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:green;
+    font-weight: 700;
+    margin: 50px auto;
+    padding-top: 70px;
+}
+.contact .textOfGis{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.textOfGis h3{
+    color:rgb(56, 128, 4);
+    font-size: 40px;
+    font-weight: 700;
+}
+.textOfGis .vy{
+    color:rgb(184, 228, 152);
+    font-size: 50px;
+}
+.textOfGis p{
+    font-size: 20px;
+    font-weight: 500;
+    color:#4D4D4D;
+}
+.textOfGis .undeLine{
+    text-decoration: underline;
+}
+
+.textOfGis #ip{
+    display: flex;
+    gap: 20px;
+}
+
+.textOfGis #ip #i{
+    color:green;
+    font-size: 30px;
+}
+.textOfGis #ip #i2{
+    color:green;
+    font-size: 24px;
+}
+
+.gis img{
+    width: 450px;
+    border-radius:20px;
+}
+#j{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+}
+/* contact */
+
+
+/*footer*/
+footer{
+    background: #F5FBFF;
+    background-image:url("../img/footer_bg.png");
+    display: flex;
+    flex-direction: column;
+}
+footer #a{
+    display: flex;
+    flex-direction: column;
+}
+#a .information ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 250px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.information ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.information ul li h4{
+    font-family: "Montserrat", sans-serif;
+    color:#1A0D01;
+    font-weight: 700;
+    font-size: 24px;
+}
+.information ul li p{
+    font-size: 16px;
+    margin-top: 15px;
+    color:#6E6E6E;
+    font-weight: 400;
+}
+.information ul li span{
+    /* color:#F0542C; */
+    color:rgb(27, 175, 27);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#a .iconsOfFooter{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin:5px auto;
+}
+.iconsOfFooter i{
+    font-size: 30px;
+    color:rgb(27, 175, 27);
+    transition: 0.5s;
+}
+.iconsOfFooter i:hover{
+    color:rgb(27, 175, 27);
+    transform: scale(1.2);
+}
+#b p{
+    margin: 40px auto;
+    text-align: center;
+    color:#919191;
+}
+#b a{
+    color:rgb(27, 175, 27);
+    font-family: "Raleway", sans-serif;
+}
+
+/*footer*/
+
+@media (max-width:1200px){
+    html{
+        /* font-size: 55%; */
+    }
+    header .logo{
+        font-size:2rem;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    .navbar .sign{
+        font-size: 16px;
+    }
+    .navbar{
+        gap: 55%;
+    }
+     /*first page groovy*/
+     .inscription h2{
+        font-size: 80px;
+    }
+    .inscription p{
+        font-size: 17px;
+    }
+    .firstPage .inscription{
+        gap: 16%;
+    }
+    .firstPage img{
+        width: 60%;
+    }
+     /*first page groovy*/
+    /*menu set*/
+
+    .menu .menuSet{
+        gap: 90px;
+    }
+    .menu .best{
+        font-size: 40px;
+    }
+    .menuSet ul li img{
+        width: 160px;
+    }
+    .menuSet ul{
+        gap: 50px;
+    }
+
+    .menuSet div {
+        gap: 0px;
+    }
+    .menuSet div h3{
+        font-size: 25px;
+    }
+    .menuSet div p{
+        font-size: 18px;
+    }
+    .more{
+        height: 60px;
+    }
+    .more span{
+        font-size: 16px;
+    }
+    /*menu set*/
+
+    /*2 food*/
+    .f1 .textf1{
+        padding-left: 70px;
+        padding-top: 150px;
+    }
+    .f2 .textf2{
+        padding-left: 70px;
+        padding-top: 140px;
+    }
+    .textf1 span{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .textf2 span{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .textf1 h4{
+        font-size: 25px;
+    }
+    .textf2 h4{
+        font-size: 25px;
+    }
+    .textf1 p{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .textf2 p{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .textf1 a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .textf2 a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .textf2 div{
+        width: 180px;
+        height: 35px;
+    }
+    .textf1 div{
+        width: 180px;
+        height: 35px;
+    }
+    /*2 food*/
+
+    /*chef and about*/
+    .about{
+        margin: 70px auto;
+    }
+    .chefs #firstChef{
+        width: 400px;
+        height: 550px;
+    }
+    .chefs #secondChef{
+        margin-right: -160px;
+        right: 220px;
+        top: 45px;
+        width: 250px;
+    }
+    .about h4{
+        font-size: 25px;
+    }
+    .chefDisc h1{
+        font-size: 35px;
+    }
+    .chefDisc p{
+        font-size:14px;
+    }
+    /*chef and about*/
+
+    /*contact 2gis*/
+    .contact{
+        gap: 120px;
+        margin:50px auto;
+    }
+    #loc{
+        font-size: 40px;
+        margin: 50px auto;
+        padding-top: 20px;
+    }
+    .contact .textOfGis{
+        gap: 35px;
+    }
+    .textOfGis h3{
+        font-size: 35px;
+    }
+    .textOfGis .vy{
+        font-size: 40px;
+    }
+    .textOfGis p{
+        font-size: 18px;
+    }
+    
+    .textOfGis #ip{
+        gap: 18px;
+    }
+    
+    .textOfGis #ip #i{
+        font-size: 25px;
+    }
+    .textOfGis #ip #i2{
+        font-size: 20px;
+    }
+    
+    .gis img{
+        width: 400px;
+    }
+    /*contact 2gis*/
+
+    /*footer*/
+    #a .information ul{
+        gap: 200px;
+    }
+    .information ul li{
+        gap: 6px;
+    }
+    .information ul li h4{
+        font-size: 20px;
+    }
+    .information ul li p{
+        font-size: 14px;
+    }
+    .information ul li span{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    #a .iconsOfFooter{
+        gap: 55px;
+        margin:5px auto;
+    }
+    .iconsOfFooter i{
+        font-size: 25px;
+    }
+    #b p{
+        margin: 40px auto;
+        font-size: 15px;
+    }
+
+    /*footer*/
+}
+
+@media (max-width:1000px){
+    
+}
+
+@media (max-width:770px){
+    html{
+        
+    }
+    header{
+        gap: 70%;
+        padding-left: 90px;
+    }
+    header input{
+        display: none;
+    }
+    header label{
+        display: block;
+        opacity: 1;
+    }
+    header input:checked ~ .navbar{
+        transform:scale(1);
+        opacity: 1;
+    }
+    .navbar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100%;
+        left: 0;
+        background-color:#fff;
+        padding: 1rem 2rem;
+        width: 100%;
+        border-top: .1rem solid rgba(0,0,0,0.1);
+        box-shadow:0 .5rem 1rem rgba(0,0,0,0.3);
+        transform-origin: top;
+        transform:scale(0);
+        opacity: 0;
+    }
+    .navbar ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100%;
+        left:0;
+        width: 100%;
+        background-color:#fff;
+        padding: 1rem 2rem;
+    }
+    .navbar .sign{
+        font-size: 20px;
+        color:rgb(31, 77, 21);
+    }
+    .navbar .sign:hover{
+        color: rgb(184, 228, 152);
+    }
+    .navbar ul li a{
+        color:rgb(31, 77, 21);
+        font-size: 18px;
+    }
+    main .firstPage{
+        gap: 10%;
+    }
+    .firstPage .inscription{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .inscription h2{
+        font-size: 60px;
+    }
+    .inscription p{
+        font-size: 13px;
+    }
+    .firstPage .img{
+        padding-top: 20px;
+        width: 1500px;
+    }
+    /*--------------------------------------------------------------------*/
+    .menu{
+        gap: 20px;
+        margin: 40px auto;
+    }
+    .menu .best{
+        font-size: 35px;
+    }
+    .menu .menuSet{
+        gap: 20px;
+    }
+    .menuSet ul li img{
+        width: 100px;
+        border:1px solid green;
+    }
+    .menuSet ul {
+        margin:20px auto;
+        gap: 40px;
+    }
+    .menuSet ul li{
+        gap: 15px;
+    }
+    
+    .menuSet div {
+        gap:5px;
+    }
+    .menuSet div h3{
+        font-size: 20px;
+    }
+    .menuSet div p{
+        font-size: 15px;
+    }
+    
+    .more{
+        margin:5px auto;
+        width: 90%;
+        height: 50px;
+    }
+    .more span{
+        font-size: 15px;
+    }
+
+    .twoFoods{
+        display: flex;
+        flex-direction: column;
+    }
+    .f1 img{
+        height: 40%;
+        width: 100%;
+    }
+    .f2 img{
+        height: 40%;
+        width: 100%;
+    }
+    
+    .textf1 span{
+        font-size: 50px;
+    }
+    .textf1 h4{
+        font-size: 40px;
+    }
+    .textf1 p{
+        font-size: 20px;
+    }
+    .textf1 a{
+        font-size: 22px;
+    }
+    .textf1 div{
+        width: 250px;
+        height: 45px;
+    }
+    
+    .textf2 span{
+        font-size: 50px;
+    }
+    .textf2 h4{
+        font-size: 40px;
+    }
+    .textf2 p{
+        font-size: 20px;
+    }
+    .textf2 a{
+        font-size: 22px;
+    }
+    .textf2 div{
+        width: 250px;
+        height: 45px;
+    }
+    
+    /* ABOUT US */
+    .chefs #firstChef{
+        width: 270px;
+        height: 400px;
+    }
+    .chefs #secondChef{
+        margin-right: -150px;
+        right: 180px;
+        top: 70px;
+        width: 200px;
+    }
+    .about h4{
+        font-size: 20px;
+    }
+    .chefDisc h1{
+        font-size: 35px;
+    }
+    .chefDisc p{
+        color:#4D4D4D;
+        font-size: 10px;
+    }
+    .chefDisc img{
+        margin-top: 20px;
+        width: 70px;
+    }
+    
+    /* ABOUT US */
+    
+    
+    /* contact */
+    .contact{
+        gap: 50px;
+    }
+    #loc{
+        font-size: 35px;
+        margin: 20px auto;
+        padding-top: 40px;
+    }
+    .contact .textOfGis{
+        gap: 25px;
+    }
+    .textOfGis h3{
+        font-size: 30px;
+    }
+    .textOfGis .vy{
+        font-size: 35px;
+    }
+    .textOfGis p{
+        font-size: 16px;
+    }
+    
+    .textOfGis #ip{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .textOfGis #ip #i{
+        font-size: 25px;
+    }
+    .textOfGis #ip #i2{
+        font-size: 21px;
+    }
+    
+    .gis img{
+        width: 320px;
+    }
+    /* contact */
+    
+    
+    /*footer*/
+    #a .information ul{
+        gap: 100px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .information ul li{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .information ul li h4{
+        font-size: 20px;
+    }
+    .information ul li p{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    .information ul li span{
+        font-size: 15px;
+    }
+    
+    #a .iconsOfFooter{
+        gap: 50px;
+    }
+    .iconsOfFooter i{
+        font-size: 25px;
+    }
+    #b p{
+        margin: 30px auto;
+        font-size: 14px;
+    } 
+}
+/*-----------------------------------------------------*/
+
+@media (max-width:600px){
+    header{
+        gap: 50%;
+        padding-left: 90px;
+    }
+    header input{
+        display: none;
+    }
+    header label{
+        display: block;
+        opacity: 1;
+    }
+    header input:checked ~ .navbar{
+        transform:scale(1);
+        opacity: 1;
+    }
+    .navbar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100%;
+        left: 0;
+        background-color:#fff;
+        padding: 1rem 2rem;
+        width: 100%;
+        border-top: .1rem solid rgba(0,0,0,0.1);
+        box-shadow:0 .5rem 1rem rgba(0,0,0,0.3);
+        transform-origin: top;
+        transform:scale(0);
+        opacity: 0;
+    }
+    .navbar .sign{
+        font-size: 20px;
+        color:rgb(31, 77, 21);
+    }
+    .navbar .sign:hover{
+        color: rgb(184, 228, 152);
+    }
+    .navbar ul li a{
+        color:rgb(31, 77, 21);
+        font-size: 18px;
+    }
+    main .firstPage{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        padding-top: 80px;
+    }
+    .inscription p{
+        font-size: 15px;
+    }
+    .firstPage .img{
+        width: 500px;
+    }
+    /*--------------------------------------------------------------------*/
+    .menu{
+        gap: 20px;
+        margin: 40px auto;
+    }
+    .menu .best{
+        font-size: 35px;
+    }
+    .menu .menuSet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 20px;
+    }
+    .menuSet ul li img{
+        width: 200px;
+    }
+    .menuSet ul {
+        margin:20px auto;
+        gap: 40px;
+    }
+    .menuSet ul li{
+        gap: 15px;
+    }
+    
+    .menuSet div {
+        gap:5px;
+    }
+    .menuSet div h3{
+        font-size: 30px;
+    }
+    .menuSet div p{
+        font-size: 20px;
+    }
+    
+    .more{
+        margin:5px auto;
+        width: 90%;
+        height: 50px;
+    }
+    .more span{
+        font-size: 15px;
+    }
+
+    .twoFoods{
+        display: flex;
+        flex-direction: column;
+    }
+    .f1 img{
+        height: 40%;
+        width: 100%;
+    }
+    .f2 img{
+        height: 40%;
+        width: 100%;
+    }
+    
+    .textf1 span{
+        font-size: 50px;
+    }
+    .textf1 h4{
+        font-size: 40px;
+    }
+    .textf1 p{
+        font-size: 20px;
+    }
+    .textf1 a{
+        font-size: 22px;
+    }
+    .textf1 div{
+        width: 250px;
+        height: 45px;
+    }
+    
+    .textf2 span{
+        font-size: 50px;
+    }
+    .textf2 h4{
+        font-size: 40px;
+    }
+    .textf2 p{
+        font-size: 20px;
+    }
+    .textf2 a{
+        font-size: 22px;
+    }
+    .textf2 div{
+        width: 250px;
+        height: 45px;
+    }
+    
+    /* ABOUT US */
+    .afterAbout .about{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .chefs #firstChef{
+        width: 320px;
+        height: 450px;
+    }
+    .chefs #secondChef{
+        margin-right: -150px;
+        right: 180px;
+        top: 70px;
+        width: 220px;
+    }
+    .about h4{
+        font-size: 30px;
+    }
+    .chefDisc h1{
+        font-size: 45px;
+    }
+    .chefDisc p{
+        color:#4D4D4D;
+        font-size: 14px;
+    }
+    .chefDisc img{
+        margin-top: 20px;
+        width: 120px;
+    }
+    
+    /* ABOUT US */
+    
+    
+    /* contact */
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    #loc{
+        font-size: 35px;
+        margin: 20px auto;
+        padding-top: 40px;
+    }
+    .contact .textOfGis{
+        gap: 30px;
+    }
+    .textOfGis h3{
+        font-size: 45px;
+    }
+    .textOfGis .vy{
+        font-size: 50px;
+    }
+    .textOfGis p{
+        font-size: 18px;
+    }
+    
+    .textOfGis #ip{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .textOfGis #ip #i{
+        font-size: 25px;
+    }
+    .textOfGis #ip #i2{
+        font-size: 21px;
+    }
+    
+    .gis img{
+        width: 380px;
+    }
+    /* contact */
+    
+    
+    /*footer*/
+    #a .information ul{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .information ul li{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .information ul li h4{
+        font-size: 25px;
+    }
+    .information ul li p{
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .information ul li span{
+        font-size: 18px;
+    }
+    
+    #a .iconsOfFooter{
+        gap: 40px;
+    }
+    .iconsOfFooter i{
+        font-size: 25px;
+    }
+    #b p{
+        margin: 30px auto;
+        font-size: 13px;
+    } 
+}

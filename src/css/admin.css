@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+body h1{
+    font-size: 30px;
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+}
+body .registrationAdmin{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.registrationAdmin input{
+    margin-top: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+body #user-list{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+#user-list div{
+    display: flex;
+    /* flex-direction: column; */
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 60%;
+    gap: 10px;
+    background-color: rgb(3, 157, 3);
+    border-radius:20px;
+}
+#user-list div p{
+    font-size: 18px;
+    font-weight: 700;
+    color:#fff;
+}
+body .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding:2px 5px; 
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+body .delete-button:hover {
+    background-color: #d32f2f; 
+}
