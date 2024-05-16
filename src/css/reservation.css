@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "Nunito",sans-serif;
+    border: none;
+    text-transform: capitalize;
+}
+main{
+    background-image:url("../img/burger_bg.png");
+}
+header{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    z-index: 100;
+}
+header .logo{
+    font-size: 45px;
+    color: rgb(56, 128, 4);
+    transition: 0.5s;
+}
+header .logo:hover{
+    transform: scale(1.2);
+}
+header .logo span{
+    color: rgb(184, 228, 152);
+}
+footer{
+    background: #F5FBFF;
+    background-image:url("../img/footer_bg.png");
+    display: flex;
+    flex-direction: column;
+}
+footer #a{
+    display: flex;
+    flex-direction: column;
+}
+#a .information ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 200px;
+    margin-top: 40px;
+}
+.information ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.information ul li h4{
+    font-family: "Montserrat", sans-serif;
+    color:#1A0D01;
+    font-weight: 700;
+    font-size: 24px;
+}
+.information ul li p{
+    font-size: 16px;
+    margin-top: 10px;
+    color:#6E6E6E;
+    font-weight: 400;
+}
+.information ul li span{
+    /* color:#F0542C; */
+    color:rgb(27, 175, 27);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#a .iconsOfFooter{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin:5px auto;
+}
+.iconsOfFooter i{
+    font-size: 30px;
+    color:rgb(27, 175, 27);
+    transition: 0.5s;
+}
+.iconsOfFooter i:hover{
+    color:rgb(27, 175, 27);
+    transform: scale(1.2);
+}
+#b p{
+    margin: 40px auto;
+    text-align: center;
+    color:#919191;
+}
+#b a{
+    color:rgb(27, 175, 27);
+    font-family: "Raleway", sans-serif;
+}
+.reservationForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+.reservationForm h2{
+    font-size: 40px;
+    color:green;
+}
+#form1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#form1 input{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+    border:1px solid grey;
+    border-radius: 10px;
+}

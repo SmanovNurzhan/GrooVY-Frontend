@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrooVY Food</title>
+    <link rel="stylesheet" href="../css/reservation.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><span>Groo</span>VY</a>
+    </header>
+    <main>
+        <div class="reservationForm">
+            <h2>Reservation</h2>
+            <form action="#" method="post" id="form1">
+                <input type="text" id="telNumber" name="telNumber" placeholder="Phone Number">
+                <select name="selectCity" id="selectCity">
+                    <option value="" id="select" disabled selected hidden>Select city</option>
+                    <option value="astana">Астана</option>
+                    <option value="almaty">Алматы</option>
+                    <option value="shymkent">Шымкент</option>
+                </select>
+                <input type="number" id="numberOfPlace" name="numberOfPlace" placeholder="number of seats" max="50" min="1">
+                <input type="text" id="nameOfCustomer" name="nameOfCustomer" placeholder="Name">
+                <input type="submit" id="submit" name="submit" value="send">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="a">
+            <div class="information">
+                <ul style="list-style-type: none">
+                    <li>
+                        <h4>Astana</h4>
+                        <p>
+                            ​Dostyk Avenue, 248<br>
+                            Almaty, Kazakhstan<br>
+                            info@grooVY.com
+                        </p>
+                        <span>+7 707 410 7872</span>
+                    </li>
+                    <li>
+                        <h4>Almaty</h4>
+                        <p>
+                            ​Dostyk Avenue, 248<br>
+                            Almaty, Kazakhstan<br>
+                            info@grooVY.com
+                        </p>
+                        <span>+7 707 410 7872</span>
+                    </li>
+                    <li>
+                        <h4>Shymkent</h4>
+                        <p>
+                            ​Dostyk Avenue, 248<br>
+                            Almaty, Kazakhstan<br>
+                            info@grooVY.com
+                        </p>
+                        <span>+7 707 410 7872</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="b">
+            <p>
+                Copyright ©2024 All rights reserved | This template is made with
+                <i class="fa-regular fa-heart"></i>
+                by <a href="#">Nurzhan</a>
+            </p>
+        </div>
+    </footer>
+    <script src="../js/reservation.js"></script>
+</body>
+</html>

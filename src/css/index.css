@@ -419,7 +419,7 @@ footer #a{
     display: flex;
     justify-content: center;
     align-items:center;
-    gap: 250px;
+    gap: 150px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -448,6 +448,27 @@ footer #a{
     font-family: "Montserrat", sans-serif;
 }
 
+#work{
+    font-size: 20px;
+    color:green;
+    font-weight: 700;
+}
+#formVac{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#formVac input{
+    font-size: 20px;
+    padding-left: 10px;
+}
+#formVac #submit{
+    color:#fff;
+    background-color:green;
+    margin-top: 10px;
+    border-radius:20px;
+    cursor: pointer;
+}
 #a .iconsOfFooter{
     display: flex;
     justify-content: center;
